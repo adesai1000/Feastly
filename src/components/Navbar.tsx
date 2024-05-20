@@ -11,6 +11,7 @@ const Navbar = () => {
             <Link href="/" className='pt-1 pb-1 pl-1 sm:hidden'>
             <Image src="/Chick-fil-A-Logo.png" alt='Chick-Fill-A Logo' height={80} width={80}/>
             </Link>
+            
             <Link href="/" className='pt-1 pb-1 pl-1 hidden md:block'>
             <Image src="/Chick-fil-A-Logo.wine.svg" alt='Chick-Fill-A Logo' height={120} width={120}/>
             </Link>

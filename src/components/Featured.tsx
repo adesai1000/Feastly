@@ -4,15 +4,15 @@ import React from "react";
 
 const Featured = () => {
   return (
-    <div className="w-screen overflow-x-scroll text-chick-red">
+    <div className="w-screen overflow-x-scroll text-chick-red ">
       {/* WRAPPER */}
       <div className="text-4xl font-bold text-chick-red p-5">Best Sellers</div>
-      <div className="w-max flex">
+      <div className="w-max flex ">
         {/* SINGLE ITEM */}
         {featuredProducts.map((item) => (
           <div
             key={item.id}
-            className="w-screen h-[60vh] flex flex-col items-center justify-around p-4   md:w-[50vw] xl:w-[33vw] xl:h-[90vh]"
+            className="w-screen h-[60vh] flex flex-col items-center justify-around p-4 md:w-[50vw] xl:w-[33vw] xl:h-[90vh] hover:bg-gray-50 hover:shadow cursor-pointer"
           >
             {/* IMAGE CONTAINER */}
             {item.img && (

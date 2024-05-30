@@ -38,7 +38,7 @@ const Slider = () => {
             </button>
         </div>
         {/* IMAGE CONTAINER */}
-        <div className="w-full flex-1 relative lg:h-full lg:w-1/2 flex items-center justify-center p-4">
+        <div className="w-full flex-1 relative lg:h-full lg:w-1/2 flex items-center justify-center p-4 ">
             <div className='relative w-full h-full lg:mt-14 rounded-xl overflow-hidden shadow-lg'>
                 <Image src='/slide2.jpeg' layout='fill' objectFit='cover' alt='HomePage Image' className=''/>
             </div>

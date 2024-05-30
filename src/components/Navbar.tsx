@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Navbar = () => {
-    const user = false;
+    const user = true;
     return (
         <div className='h-14 text-chick-red p-4 flex justify-between items-center shadow-md lg:px-20 xl:px-40'>
             {/* LEFT LINKS */}
@@ -32,7 +32,7 @@ const Navbar = () => {
             {/* RIGHT LINKS */}
             <div className='hidden md:flex gap-4 flex-1 justify-end font-semibold'>
                 {!user ? (<Link href='/login' className='hover:underline'>Login</Link>) : (
-                    <Link href='/order' className='hover:underline'>Orders</Link>
+                    <Link href='/orders' className='hover:underline'>Orders</Link>
                 )}
                 <Link href='/cart' className='hover:underline'>Cart</Link>
             </div>

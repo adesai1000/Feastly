@@ -34,7 +34,7 @@ const Navbar = () => {
                 {!user ? (<Link href='/Login' className='hover:underline'>Login</Link>) : (
                     <Link href='/order' className='hover:underline'>Orders</Link>
                 )}
-                <Link href='/contact' className='hover:underline'>Cart</Link>
+                <Link href='/cart' className='hover:underline'>Cart</Link>
             </div>
         </div>
     );

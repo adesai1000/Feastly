@@ -9,7 +9,7 @@ const Offer = () => {
         <h1 className="text-white text-3xl font-bold xl:text-5xl text-left">Explore the full menu
 </h1>
         <p className="text-white xl:text-xl text-left">
-        Whether you're hungry for a Chick-fil-A® Chicken Sandwich or salads prepared fresh daily, we're here to serve you delicious food made with quality ingredients every day (except Sunday).
+        Whether you are hungry for a Chick-fil-A Chicken Sandwich or salads prepared fresh daily, we are here to serve you delicious food made with quality ingredients every day (except Sunday).
         </p>
         <button className="bg-chick-red text-white rounded-full font-bold py-3 px-6">Find Something to eat</button>
       </div>

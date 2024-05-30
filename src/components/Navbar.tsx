@@ -4,14 +4,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Navbar = () => {
-    const user = true;
+    const user = false;
     return (
         <div className='h-14 text-chick-red p-4 flex justify-between items-center shadow-md lg:px-20 xl:px-40'>
             {/* LEFT LINKS */}
             <div className='hidden md:flex gap-4 flex-1 font-semibold'>
                 <Link href='/' className='hover:underline'>Home</Link>
                 <Link href='/menu'className='hover:underline'>Menu</Link>
-                <Link href='/contact' className='hover:underline'>Contact</Link>
             </div> 
             {/* PHONE LOGO */}
             <div className='flex-1 flex justify-center md:hidden'>

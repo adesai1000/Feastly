@@ -7,12 +7,10 @@ import Link from 'next/link';
 
 const links = [
     {id:1, title:"Home", url:"/"},
-    {id:2, title:"Menu", url: "/"},
-    {id:3, title:"Stores", url:"/"},
-    {id:4, title:"Contact", url:"/"}
+    {id:2, title:"Menu", url: "/menu"},
 ]
 
-const user = false;
+const user = true;
 
 const Menu = () => {
     const [open, setOpen] = useState(false)
@@ -30,7 +28,7 @@ const Menu = () => {
         {!user?(<Link href='/login' onClick={()=>setOpen(false)}>Login</Link>
         ):(
         <Link href='/orders' onClick={()=>setOpen(false)}>Orders</Link>)}
-        <Link href='/cart' onClick={()=>setOpen(false)}>Cart(3)</Link>
+        <Link href='/cart' onClick={()=>setOpen(false)}>Cart (3)</Link>
     </div>)}
     </div>
   )

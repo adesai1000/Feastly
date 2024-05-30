@@ -27,7 +27,7 @@ const Price = ({ price, id, options }: Props) => {
         {options?.map((option, index) => (
           <button
             key={option.title}
-            className="min-w-[6rem] p-2 ring-1 ring-chick-red rounded-md"
+            className="min-w-[6rem] p-2 ring-1 ring-chick-red "
             style={{
               background: selected === index ? "#E51736" : "white",
               color: selected === index ? "white" : "red",

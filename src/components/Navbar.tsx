@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             {/* RIGHT LINKS */}
             <div className='hidden md:flex gap-4 flex-1 justify-end font-semibold'>
-                {!user ? (<Link href='/Login' className='hover:underline'>Login</Link>) : (
+                {!user ? (<Link href='/login' className='hover:underline'>Login</Link>) : (
                     <Link href='/order' className='hover:underline'>Orders</Link>
                 )}
                 <Link href='/cart' className='hover:underline'>Cart</Link>

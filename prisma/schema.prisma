@@ -43,5 +43,5 @@ model Order {
   price     Decimal
   products  Json[]
   status    String
-  intent_id String   @unique
+  intent_id String?  @unique
 }
